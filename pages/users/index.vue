@@ -6,7 +6,7 @@ const { data: users } = useFetch('https://jsonplaceholder.typicode.com/users')
 <template>
   <div>
     <h1 class="text-green-400 font-bold text-3xl text-center">Users</h1>
-    <img src="rc.jpg" alt="gjglgjlgjlgjlkfjlkdglajk;dfgjdflgkjsd;flgjsd;lfgj;sdlfgj">
+    <img src="../../assets/rc.jpg" alt="gjglgjlgjlgjlkfjlkdglajk;dfgjdflgkjsd;flgjsd;lfgj;sdlfgj">
     <div class="flex flex-wrap gap-4">
       <div v-for="user in users" :key="user.id">
         <nuxt-link :to="`/users/${user.id}`" class="block bg-white shadow-lg rounded-lg p-6">

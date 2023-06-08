@@ -9,5 +9,10 @@ export default defineNuxtConfig({
   },
   routeRules: {
     '/users/**': { ssr: false }
+  },
+  build: {
+    rollupOptions: {
+      external: ['rc.jpg']
+    }
   }
 })
