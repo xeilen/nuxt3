@@ -16,6 +16,7 @@ useServerSeoMeta({
 <template>
   <div>
     <h1 class="text-orange-400 text-3xl text-center" @click="makeClientRequest">Posts</h1>
+    <img src="rc.jpg" alt="gjglgjlgjlgjlkfjlkdglajk;dfgjdflgkjsd;flgjsd;lfgj;sdlfgj">
     <div class="flex flex-wrap justify-between gap-2">
       <div v-for="post in posts" :key="post.id">
         <nuxt-link :to="`/posts/${post.id}`" class="h-full block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
